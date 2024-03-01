@@ -1,0 +1,31 @@
+@import url('@cscfi/csc-ui/css/theme.css');
+
+p {
+  color: var(--c-primary-600);
+}
+
+.c-login-card{
+  align-items: center;
+  justify-content: center;
+}
+
+.c-login-card-content{
+  align-items: center;
+}
+
+body {
+  font-family:
+    'Segoe UI',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+}
+
+#notfound{
+  align-items: center;
+  justify-content: center;
+}
+
