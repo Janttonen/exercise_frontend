@@ -6,6 +6,10 @@ import { mdiInformationOutline, mdiHome, mdiLogout } from "@mdi/js";
 
 const currentMenuItem = ref("button");
 
+if(localStorage.getItem('Logged') != "true"){
+  router.push("/login")
+}
+
 const onNavigation = (item: string) => {
   currentMenuItem.value = item;
   router.push(`/${item}`);

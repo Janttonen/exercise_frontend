@@ -29,11 +29,11 @@ export interface Repository {
             <c-accordion-item value="one" heading="Repository">
               <c-icon slot="icon" :path="mdiStar" />
               <pre>
-                Name: {{ repo.name }}
-                Description: {{ repo.description }}
-                URL: {{ repo.html_url }}
-                License: {{ repo.license.name }}
-                Topics: {{ repo.topics }}
+Name: {{ repo.name }}
+Description: {{ repo.description }}
+URL: {{ repo.html_url }}
+License: {{ repo.license.name }}
+Topics: {{ repo.topics }}
               </pre>
             </c-accordion-item>
           </c-accordion>

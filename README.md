@@ -12,4 +12,4 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:5173/ in a browser.
+Open http://localhost:5173/login in a browser.

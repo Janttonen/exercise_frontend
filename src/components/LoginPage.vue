@@ -3,8 +3,10 @@ import router from "@/router";
 
 const { VITE_CLIENT_ID, VITE_CLIENT_SECRET } = import.meta.env;
 
-const login = () => {
+const login = async () => {
   window.location.href = `https://github.com/login/oauth/authorize?client_id=${VITE_CLIENT_ID}`;
+
+  // giving dummy token as user clicks Login
   localStorage.setItem("Logged", "true");
 };
 
